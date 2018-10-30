@@ -5,7 +5,7 @@ import itertools
 from app import app, validation_schema
 
 
-@app.route('/api/v1/conditions', methods=('POST', 'GET'))
+@app.route('/api/v1/conditions', methods=('POST', ))
 def conditions():
     data = flask.request.get_json(force=True)
     jsonschema.validate(data, validation_schema)  # Pre-validate common request structure
