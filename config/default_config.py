@@ -1,0 +1,3 @@
+DEBUG = True
+APP_VALIDATION_SCHEMA_FILE = 'validation.json'
+APPLICATION_ROOT = '/api/v1'
