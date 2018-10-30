@@ -16,7 +16,7 @@ Run `python3 wsgi.py` and development server will appear at 127.0.0.1:5000.
 
 # Debugging
 
-Firstly, set DEBUG = True in configuration.
+Firstly, set `DEBUG = True` in configuration.
 
 Add `"debug": true` to the higher level of the request object to debug the
 rules. The debug output will be returned as text as following:
