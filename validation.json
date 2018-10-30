@@ -3,6 +3,9 @@
   "additionalProperties": false,
   "required": ["article", "conditions"],
   "properties": {
+    "debug": {
+      "type": ["boolean"]
+    },
     "article": {
       "type": "string"
     },
